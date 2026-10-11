@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-shop-005"
+  short_description: "Bright, tidy, real-camera beauty scene photos."
+  default_prompt: "Use $xxd-shop-005; keep the bundled original brief (sample task removed) as the sole aesthetic authority, treat the beauty product photo as the authority for labels and logo and keep bottle text legible, recommend no added text because the brief is a photograph, accept a side-by-side pair only as the user's own appended requirement, reject dark or cluttered results, and deliver fresh PNGs in one flat task directory."
+
+policy:
+  allow_implicit_invocation: true
