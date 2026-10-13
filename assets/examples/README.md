@@ -4,6 +4,12 @@
 
 | 文件 | 用途 | 实际像素 | 输入 | 文字方式 | visual_review |
 |---|---|---|---|---|---|
+| `c01-category-3x4-1086x1448.png` | 小红书 | 1086x1448 | 仅商品名称 | none | passed |
+| `c02-category-4x5-1122x1402.png` | 社媒 | 1122x1402 | 仅商品名称 | none | passed |
+| `c03-category-1x1-1254x1254.png` | 场景主图 | 1254x1254 | 仅商品名称 | none | passed |
+| `c04-category-3x4-1086x1448.png` | 小红书 | 1086x1448 | 仅商品名称 | none | passed |
+| `c05-category-1x1-1254x1254.png` | 场景主图 | 1254x1254 | 仅商品名称 | none | passed |
+| `c06-category-4x5-1122x1402.png` | 社媒 | 1122x1402 | 原图 `candle-jar` | none | passed |
 | `p01-set-3x4-1086x1448.png` | 小红书种草轮播 | 1086x1448 | 原图 `serum-clear` | none | passed |
 | `p02-set-3x4-1086x1448.png` | 小红书种草轮播 | 1086x1448 | 原图 `serum-clear` | none | passed |
 | `p03-set-3x4-1086x1448.png` | 小红书种草轮播 | 1086x1448 | 原图 `serum-clear` | none | passed |
@@ -22,6 +28,7 @@
 
 | 原图 | 来源 · 摄影师 |
 |---|---|
+| `sources/candle-jar.jpg` | [smNzhFQRktg](https://unsplash.com/photos/smNzhFQRktg) · @jfdelp |
 | `sources/cream-jar.jpg` | [w-IvqlYGYAU](https://unsplash.com/photos/w-IvqlYGYAU) · @avtar9w |
 | `sources/perfume-square.jpg` | [iDDGJt3veps](https://unsplash.com/photos/iDDGJt3veps) · @scentspiracy |
 | `sources/serum-amber.jpg` | [GjJZ5HBl2qQ](https://unsplash.com/photos/GjJZ5HBl2qQ) · @normals |

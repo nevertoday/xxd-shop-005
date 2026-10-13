@@ -15,6 +15,14 @@
 
 <p align="center"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" width="720" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>栖白 柔雾面霜 · <a href="assets/examples/sources/cream-jar.jpg">原图</a> · 不加字</sub></p>
 
+### 能做哪些品类
+
+每格一个品类，点开看大图；下面各段有用途、比例、像素和输入说明。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/c01-category-3x4-1086x1448.png"><img src="assets/examples/preview/c01-category-3x4-1086x1448.webp" height="130" alt="美妆"></a><br><sub><b>美妆</b><br>小红书</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-4x5-1122x1402.png"><img src="assets/examples/preview/c02-category-4x5-1122x1402.webp" height="130" alt="护肤"></a><br><sub><b>护肤</b><br>社媒</sub></td><td align="center" valign="top"><a href="assets/examples/c04-category-3x4-1086x1448.png"><img src="assets/examples/preview/c04-category-3x4-1086x1448.webp" height="130" alt="个护清洁"></a><br><sub><b>个护清洁</b><br>小红书</sub></td><td align="center" valign="top"><a href="assets/examples/c06-category-4x5-1122x1402.png"><img src="assets/examples/preview/c06-category-4x5-1122x1402.webp" height="130" alt="香氛家居"></a><br><sub><b>香氛家居</b><br>社媒</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-1x1-1254x1254.png"><img src="assets/examples/preview/s07-category-1x1-1254x1254.webp" height="130" alt="美容仪器"></a><br><sub><b>美容仪器</b><br>场景主图</sub></td></tr>
+</table>
+
 ### 一个商品，适配每个位置
 
 同一商品、同一份原稿，每个比例都重新构图，不是裁切。
@@ -32,7 +40,9 @@
 ### 换一个品类也成立
 
 <table>
-<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>雾屿 晨雾淡香水 · <a href="assets/examples/sources/perfume-square.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-4x5-1122x1402.png"><img src="assets/examples/preview/s06-category-4x5-1122x1402.webp" height="220" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-1x1-1254x1254.png"><img src="assets/examples/preview/s07-category-1x1-1254x1254.webp" height="220" alt="场景主图"></a><br><sub>场景主图 · 1:1 · 1254x1254<br>栖白 微电流美容仪 · 仅商品名称 · 不加字</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/c01-category-3x4-1086x1448.png"><img src="assets/examples/preview/c01-category-3x4-1086x1448.webp" height="200" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>栖白 丝绒唇膏 · 仅商品名称 · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-4x5-1122x1402.png"><img src="assets/examples/preview/c02-category-4x5-1122x1402.webp" height="200" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>栖白 清透防晒乳 · 仅商品名称 · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-1x1-1254x1254.png"><img src="assets/examples/preview/c03-category-1x1-1254x1254.webp" height="200" alt="场景主图"></a><br><sub>场景主图 · 1:1 · 1254x1254<br>栖白 身体乳 · 仅商品名称 · 不加字</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/c04-category-3x4-1086x1448.png"><img src="assets/examples/preview/c04-category-3x4-1086x1448.webp" height="200" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>清屿 氨基酸洗发水 · 仅商品名称 · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/c05-category-1x1-1254x1254.png"><img src="assets/examples/preview/c05-category-1x1-1254x1254.webp" height="200" alt="场景主图"></a><br><sub>场景主图 · 1:1 · 1254x1254<br>栖白 九色眼影盘 · 仅商品名称 · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/c06-category-4x5-1122x1402.png"><img src="assets/examples/preview/c06-category-4x5-1122x1402.webp" height="200" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>雾屿 香薰蜡烛 · <a href="assets/examples/sources/candle-jar.jpg">原图</a> · 不加字</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="200" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>雾屿 晨雾淡香水 · <a href="assets/examples/sources/perfume-square.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-4x5-1122x1402.png"><img src="assets/examples/preview/s06-category-4x5-1122x1402.webp" height="200" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-1x1-1254x1254.png"><img src="assets/examples/preview/s07-category-1x1-1254x1254.webp" height="200" alt="场景主图"></a><br><sub>场景主图 · 1:1 · 1254x1254<br>栖白 微电流美容仪 · 仅商品名称 · 不加字</sub></td></tr>
 </table>
 
 <sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>

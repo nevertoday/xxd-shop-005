@@ -7,6 +7,144 @@
  },
  "items": [
   {
+   "id": "c01",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "小红书",
+    "en": "Xiaohongshu post"
+   },
+   "product": {
+    "zh": "栖白 丝绒唇膏",
+    "en": "QIBAI velvet lipstick"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "美妆",
+    "en": "Makeup"
+   },
+   "hero": false,
+   "file": "c01-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c02",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "name",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "栖白 清透防晒乳",
+    "en": "QIBAI sheer sunscreen"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
+   "hero": false,
+   "file": "c02-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "c03",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "场景主图",
+    "en": "Lifestyle listing image"
+   },
+   "product": {
+    "zh": "栖白 身体乳",
+    "en": "QIBAI body lotion"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
+   "hero": false,
+   "file": "c03-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c04",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "小红书",
+    "en": "Xiaohongshu post"
+   },
+   "product": {
+    "zh": "清屿 氨基酸洗发水",
+    "en": "QINGYU amino-acid shampoo"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "个护清洁",
+    "en": "Personal & home care"
+   },
+   "hero": false,
+   "file": "c04-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c05",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "场景主图",
+    "en": "Lifestyle listing image"
+   },
+   "product": {
+    "zh": "栖白 九色眼影盘",
+    "en": "QIBAI nine-shade eyeshadow palette"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "美妆",
+    "en": "Makeup"
+   },
+   "hero": false,
+   "file": "c05-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c06",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "candle-jar",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "雾屿 香薰蜡烛",
+    "en": "WUYU scented candle"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "香氛家居",
+    "en": "Home fragrance"
+   },
+   "hero": false,
+   "file": "c06-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
    "id": "p01",
    "section": "set",
    "ratio": "3:4",
@@ -21,6 +159,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "note": {
     "zh": "第 1 / 4 张",
     "en": "1 of 4"
@@ -44,6 +186,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "note": {
     "zh": "第 2 / 4 张",
     "en": "2 of 4"
@@ -67,6 +213,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "note": {
     "zh": "第 3 / 4 张",
     "en": "3 of 4"
@@ -90,6 +240,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "note": {
     "zh": "第 4 / 4 张",
     "en": "4 of 4"
@@ -113,6 +267,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s01-size-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -132,6 +290,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": true,
    "file": "s02-size-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -151,6 +313,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s03-size-9x16-941x1672.png",
    "pixels": "941x1672"
@@ -170,6 +336,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s04-size-16x9-1672x941.png",
    "pixels": "1672x941"
@@ -189,6 +359,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "美妆",
+    "en": "Makeup"
+   },
    "hero": false,
    "file": "s05-category-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -208,6 +382,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s06-category-4x5-1122x1402.png",
    "pixels": "1122x1402"
@@ -227,6 +405,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "美容仪器",
+    "en": "Beauty devices"
+   },
    "hero": false,
    "file": "s07-category-1x1-1254x1254.png",
    "pixels": "1254x1254"
