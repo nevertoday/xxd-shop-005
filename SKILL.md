@@ -1,6 +1,6 @@
 ---
 name: xxd-shop-005
-description: "Create XXD Shop 005 bright, tidy, lived-in beauty scene photos (明亮规整的美妆电商场景图) as finished PNGs from a white-background or real product shot, a product directory, or a product name, treating the bundled original brief as the sole aesthetic authority: the product is the brightest, clearest, most complete thing in frame with legible bottle text, high-key soft indoor daylight with no dark areas, few orderly props, a stable base like a ceramic dish or stone tray, real-camera feel like a photo taken in a very tidy home. For skincare, makeup, fragrance, hair and body care. Text-free by default. Supports multiple ratios or exact sizes and several compositions per size. Use when the user invokes xxd-shop-005 or asks for 美妆场景图、小红书 PLOG、种草图、护肤品场景图、化妆品生活照."
+description: "Create XXD Shop 005 bright, tidy, lived-in beauty scene photos (明亮规整的美妆电商场景图) as finished PNGs from a white-background or real product shot, a product directory, or a product name, treating the bundled original brief as the sole aesthetic authority: the product is the brightest, clearest, most complete thing in frame with legible bottle text, high-key soft indoor daylight with no dark areas, few orderly props, a stable base like a ceramic dish or stone tray, real-camera feel like a photo taken in a very tidy home. For skincare, makeup, fragrance, hair and body care. Text-free by default. Supports multiple ratios or exact sizes and several compositions per size. Also plans a 3–6 image carousel (--set) set in different corners of the same tidy home, the last echoing the first. Use when the user invokes xxd-shop-005 or asks for 美妆场景图、小红书 PLOG、种草图、护肤品场景图、化妆品生活照、种草轮播、一组种草图."
 ---
 
 # XXD Shop 005｜明亮美妆场景
@@ -25,7 +25,21 @@ description: "Create XXD Shop 005 bright, tidy, lived-in beauty scene photos (�
 
 **功效不上画面。** 本编号没有文字，自然不写功效；用户追加文案时，美白、祛痘、抗老等功效词同样需要事实来源。
 
+**套图：种草轮播（启用）。** 原稿说画面像“审美很好、收拾得很干净的人家中自然拍到的美妆照片”，一套轮播就是同一个家里的几处角落。按家族“套图”一节执行，本编号的约定：
+
+- **默认张数：** 4。用户可以用 `--set N` 改成 3–6 张。
+- **套图角色：** 每张一个承载处，从原稿列出的承载面和道具里组合：浅色陶盘、石材托盘、干净桌面、简洁收纳区域；规整收纳柜、简洁托盘、玻璃罐、镜框、折叠织物、金属置物架、花朵或书籍。每张的承载面不同，道具仍按原稿“主动克制”，只选少量。
+- **继承项：** 同一个家。也就是墙面与台面的材质和色系、光的方向与高调亮度、浅色之间的明度关系。
+- **构图来源：** 原稿的“居中或轻微偏心”，加上远近变化（中景交代所在的角落，近景让瓶身文字更清楚）。相邻两张在承载处或远近上不同；不为求变化而用原稿禁止的斜线、遮挡或前景虚化。
+- **末张呼应首张：** 最后一张回到第 1 张的承载处，换一个远近，让轮播首尾相接。
+- **文字：** 本编号默认不加字，套图也一样；用户给了每张的文案时，按 exact 逐张分配。
+- **追加验收：** 一眼看得出是同一个家、同一束光；每张商品都是画面里最亮、最完整的东西；每张的承载处不同；末张与首张是同一处、不同远近。
+
 **追加验收：** 没有大面积暗部、暗角、黑色背景或强侧光；道具少而规整，没有随机散落和前景虚化物；白色与浅色区域不发灰、不发黄；产品是画面里最明亮、最完整的东西。
+
+**写入提示词：** 以下句子原话放进交付块的“本编号约束”；其余覆盖条款由 Agent 执行与验收，不进入提示词。
+
+- 画面边缘和最前景不放虚化的花草、织物或任何道具；商品居中或轻微偏心，是画面里最明亮、最完整的东西。
 
 ## 参考文件
 

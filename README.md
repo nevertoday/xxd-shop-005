@@ -10,9 +10,34 @@
 
 > 原始提示词：[简体中文原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## 样张
 
-暂无样张。下文命令只是用法示例，不是视觉证据。
+<p align="center"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" width="720" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>栖白 柔雾面霜 · <a href="assets/examples/sources/cream-jar.jpg">原图</a> · 不加字</sub></p>
+
+### 一个商品，适配每个位置
+
+同一商品、同一份原稿，每个比例都重新构图，不是裁切。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="场景主图"></a><br><sub>场景主图 · 1:1 · 1254x1254<br>栖白 柔雾面霜 · <a href="assets/examples/sources/cream-jar.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>栖白 柔雾面霜 · <a href="assets/examples/sources/cream-jar.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="竖屏信息流"></a><br><sub>竖屏信息流 · 9:16 · 941x1672<br>栖白 柔雾面霜 · <a href="assets/examples/sources/cream-jar.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="横幅"></a><br><sub>横幅 · 16:9 · 1672x941<br>栖白 柔雾面霜 · <a href="assets/examples/sources/cream-jar.jpg">原图</a> · 不加字</sub></td></tr>
+</table>
+
+### 种草轮播（套图）：同一个家，末张回到首张
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" height="220" alt="小红书种草轮播"></a><br><sub>小红书种草轮播 · 3:4 · 1086x1448<br>栖白 净透精华油 · <a href="assets/examples/sources/serum-clear.jpg">原图</a> · 不加字<br>第 1 / 4 张</sub></td><td align="center" valign="top"><a href="assets/examples/p02-set-3x4-1086x1448.png"><img src="assets/examples/preview/p02-set-3x4-1086x1448.webp" height="220" alt="小红书种草轮播"></a><br><sub>小红书种草轮播 · 3:4 · 1086x1448<br>栖白 净透精华油 · <a href="assets/examples/sources/serum-clear.jpg">原图</a> · 不加字<br>第 2 / 4 张</sub></td><td align="center" valign="top"><a href="assets/examples/p03-set-3x4-1086x1448.png"><img src="assets/examples/preview/p03-set-3x4-1086x1448.webp" height="220" alt="小红书种草轮播"></a><br><sub>小红书种草轮播 · 3:4 · 1086x1448<br>栖白 净透精华油 · <a href="assets/examples/sources/serum-clear.jpg">原图</a> · 不加字<br>第 3 / 4 张</sub></td><td align="center" valign="top"><a href="assets/examples/p04-set-3x4-1086x1448.png"><img src="assets/examples/preview/p04-set-3x4-1086x1448.webp" height="220" alt="小红书种草轮播"></a><br><sub>小红书种草轮播 · 3:4 · 1086x1448<br>栖白 净透精华油 · <a href="assets/examples/sources/serum-clear.jpg">原图</a> · 不加字<br>第 4 / 4 张</sub></td></tr>
+</table>
+
+### 换一个品类也成立
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="小红书"></a><br><sub>小红书 · 3:4 · 1086x1448<br>雾屿 晨雾淡香水 · <a href="assets/examples/sources/perfume-square.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-4x5-1122x1402.png"><img src="assets/examples/preview/s06-category-4x5-1122x1402.webp" height="220" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-1x1-1254x1254.png"><img src="assets/examples/preview/s07-category-1x1-1254x1254.webp" height="220" alt="场景主图"></a><br><sub>场景主图 · 1:1 · 1254x1254<br>栖白 微电流美容仪 · 仅商品名称 · 不加字</sub></td></tr>
+</table>
+
+<sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>
+
+<!-- xxd-samples:end -->
 
 ## 它解决什么
 
@@ -36,6 +61,14 @@
 - **小红书用 3:4，** 电商场景图 1:1。
 - **想要两件产品左右并排，** 在描述里直接说“左右并排两件产品，各自一个场景，3:2”，它会作为你的额外要求加在最后。
 - **标签字小的产品，** 给一张正面清楚的原图，比多角度图更重要。
+
+## 种草轮播
+
+加 `--set`（默认 4 张，可以 3–6 张），就是同一个干净的家里的几处角落：陶盘、石材托盘、收纳柜、梳妆镜前……每张换一个承载处或远近，光和材质都是同一个家的。最后一张回到第 1 张的位置，换一个远近，让轮播首尾相接。分镜和第 1 张一起给你看，确认后再出其余几张。
+
+```text
+/xxd-shop-005 ./精华.png --set 4 --size 3:4
+```
 
 ## 开始使用
 

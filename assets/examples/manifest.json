@@ -1,0 +1,235 @@
+{
+ "skill": "005",
+ "special": null,
+ "set": {
+  "zh": "种草轮播（套图）：同一个家，末张回到首张",
+  "en": "Carousel set: one home, the last image returns to the first"
+ },
+ "items": [
+  {
+   "id": "p01",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "serum-clear",
+   "use": {
+    "zh": "小红书种草轮播",
+    "en": "Xiaohongshu carousel"
+   },
+   "product": {
+    "zh": "栖白 净透精华油",
+    "en": "QIBAI clarifying face oil"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 1 / 4 张",
+    "en": "1 of 4"
+   },
+   "hero": false,
+   "file": "p01-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "p02",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "serum-clear",
+   "use": {
+    "zh": "小红书种草轮播",
+    "en": "Xiaohongshu carousel"
+   },
+   "product": {
+    "zh": "栖白 净透精华油",
+    "en": "QIBAI clarifying face oil"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 2 / 4 张",
+    "en": "2 of 4"
+   },
+   "hero": false,
+   "file": "p02-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "p03",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "serum-clear",
+   "use": {
+    "zh": "小红书种草轮播",
+    "en": "Xiaohongshu carousel"
+   },
+   "product": {
+    "zh": "栖白 净透精华油",
+    "en": "QIBAI clarifying face oil"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 3 / 4 张",
+    "en": "3 of 4"
+   },
+   "hero": false,
+   "file": "p03-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "p04",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "serum-clear",
+   "use": {
+    "zh": "小红书种草轮播",
+    "en": "Xiaohongshu carousel"
+   },
+   "product": {
+    "zh": "栖白 净透精华油",
+    "en": "QIBAI clarifying face oil"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 4 / 4 张",
+    "en": "4 of 4"
+   },
+   "hero": false,
+   "file": "p04-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s01",
+   "section": "size",
+   "ratio": "1:1",
+   "input": "cream-jar",
+   "use": {
+    "zh": "场景主图",
+    "en": "Lifestyle listing image"
+   },
+   "product": {
+    "zh": "栖白 柔雾面霜",
+    "en": "QIBAI soft-matte cream"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s01-size-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s02",
+   "section": "size",
+   "ratio": "3:4",
+   "input": "cream-jar",
+   "use": {
+    "zh": "小红书",
+    "en": "Xiaohongshu post"
+   },
+   "product": {
+    "zh": "栖白 柔雾面霜",
+    "en": "QIBAI soft-matte cream"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": true,
+   "file": "s02-size-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s03",
+   "section": "size",
+   "ratio": "9:16",
+   "input": "cream-jar",
+   "use": {
+    "zh": "竖屏信息流",
+    "en": "Vertical feed ad"
+   },
+   "product": {
+    "zh": "栖白 柔雾面霜",
+    "en": "QIBAI soft-matte cream"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s03-size-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
+   "id": "s04",
+   "section": "size",
+   "ratio": "16:9",
+   "input": "cream-jar",
+   "use": {
+    "zh": "横幅",
+    "en": "Banner"
+   },
+   "product": {
+    "zh": "栖白 柔雾面霜",
+    "en": "QIBAI soft-matte cream"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s04-size-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s05",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "perfume-square",
+   "use": {
+    "zh": "小红书",
+    "en": "Xiaohongshu post"
+   },
+   "product": {
+    "zh": "雾屿 晨雾淡香水",
+    "en": "WUYU morning-mist eau de toilette"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s05-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s06",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "serum-amber",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "栖白 修护精华",
+    "en": "QIBAI repair serum"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s06-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "s07",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "场景主图",
+    "en": "Lifestyle listing image"
+   },
+   "product": {
+    "zh": "栖白 微电流美容仪",
+    "en": "QIBAI microcurrent device"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s07-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  }
+ ]
+}

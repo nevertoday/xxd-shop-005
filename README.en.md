@@ -10,9 +10,34 @@
 
 > Original brief: [Simplified Chinese original](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## Samples
 
-No samples yet. The commands below are usage examples, not visual evidence.
+<p align="center"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" width="720" alt="Xiaohongshu post"></a><br><sub>Xiaohongshu post · 3:4 · 1086x1448<br>QIBAI soft-matte cream · <a href="assets/examples/sources/cream-jar.jpg">source photo</a> · no added text</sub></p>
+
+### One product, every placement
+
+Same product, same brief: each ratio is a new composition, not a crop.
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="Lifestyle listing image"></a><br><sub>Lifestyle listing image · 1:1 · 1254x1254<br>QIBAI soft-matte cream · <a href="assets/examples/sources/cream-jar.jpg">source photo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="Xiaohongshu post"></a><br><sub>Xiaohongshu post · 3:4 · 1086x1448<br>QIBAI soft-matte cream · <a href="assets/examples/sources/cream-jar.jpg">source photo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="Vertical feed ad"></a><br><sub>Vertical feed ad · 9:16 · 941x1672<br>QIBAI soft-matte cream · <a href="assets/examples/sources/cream-jar.jpg">source photo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="Banner"></a><br><sub>Banner · 16:9 · 1672x941<br>QIBAI soft-matte cream · <a href="assets/examples/sources/cream-jar.jpg">source photo</a> · no added text</sub></td></tr>
+</table>
+
+### Carousel set: one home, the last image returns to the first
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" height="220" alt="Xiaohongshu carousel"></a><br><sub>Xiaohongshu carousel · 3:4 · 1086x1448<br>QIBAI clarifying face oil · <a href="assets/examples/sources/serum-clear.jpg">source photo</a> · no added text<br>1 of 4</sub></td><td align="center" valign="top"><a href="assets/examples/p02-set-3x4-1086x1448.png"><img src="assets/examples/preview/p02-set-3x4-1086x1448.webp" height="220" alt="Xiaohongshu carousel"></a><br><sub>Xiaohongshu carousel · 3:4 · 1086x1448<br>QIBAI clarifying face oil · <a href="assets/examples/sources/serum-clear.jpg">source photo</a> · no added text<br>2 of 4</sub></td><td align="center" valign="top"><a href="assets/examples/p03-set-3x4-1086x1448.png"><img src="assets/examples/preview/p03-set-3x4-1086x1448.webp" height="220" alt="Xiaohongshu carousel"></a><br><sub>Xiaohongshu carousel · 3:4 · 1086x1448<br>QIBAI clarifying face oil · <a href="assets/examples/sources/serum-clear.jpg">source photo</a> · no added text<br>3 of 4</sub></td><td align="center" valign="top"><a href="assets/examples/p04-set-3x4-1086x1448.png"><img src="assets/examples/preview/p04-set-3x4-1086x1448.webp" height="220" alt="Xiaohongshu carousel"></a><br><sub>Xiaohongshu carousel · 3:4 · 1086x1448<br>QIBAI clarifying face oil · <a href="assets/examples/sources/serum-clear.jpg">source photo</a> · no added text<br>4 of 4</sub></td></tr>
+</table>
+
+### Across categories
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="Xiaohongshu post"></a><br><sub>Xiaohongshu post · 3:4 · 1086x1448<br>WUYU morning-mist eau de toilette · <a href="assets/examples/sources/perfume-square.jpg">source photo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-4x5-1122x1402.png"><img src="assets/examples/preview/s06-category-4x5-1122x1402.webp" height="220" alt="Social post"></a><br><sub>Social post · 4:5 · 1122x1402<br>QIBAI repair serum · <a href="assets/examples/sources/serum-amber.jpg">source photo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-1x1-1254x1254.png"><img src="assets/examples/preview/s07-category-1x1-1254x1254.webp" height="220" alt="Lifestyle listing image"></a><br><sub>Lifestyle listing image · 1:1 · 1254x1254<br>QIBAI microcurrent device · name only · no added text</sub></td></tr>
+</table>
+
+<sub>All sample products are fictional demo brands, and their prices and specs are demo values. Source photos come from Unsplash; credits and licence are in [assets/examples/README.md](assets/examples/README.md). Each image is one complete generation: not retouched, composited or upscaled, with its real pixel size shown. Images that failed visual review were regenerated and are not shown. Click for full size.</sub>
+
+<!-- xxd-samples:end -->
 
 ## What it solves
 
@@ -25,6 +50,10 @@ Beauty lifestyle shots usually fail by being too studio — an ad, not a life �
 - **No text.** It is a photograph, not a poster; no headline or stickers by default.
 - **Bright.** The brief rejects dark areas, black backgrounds and hard side light — for moody premium looks use Shop 001 or 011.
 - **Made for lifestyle feeds, beauty recommendations and e-commerce scene images.**
+
+## Carousel set
+
+With `--set` (4 by default, 3–6 allowed) you get several corners of the same tidy home: a ceramic dish, a stone tray, a storage cabinet, a mirror shelf. Each image changes the spot or the distance, while the light and materials stay those of one home. The last image returns to the first spot at a new distance so the carousel closes the loop. You approve the storyboard together with image 1.
 
 ## Getting started
 
