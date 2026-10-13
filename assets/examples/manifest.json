@@ -10,7 +10,7 @@
    "id": "c01",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-qibai-lipstick+logo-qibai",
    "use": {
     "zh": "小红书",
     "en": "Xiaohongshu post"
@@ -33,7 +33,7 @@
    "id": "c02",
    "section": "category",
    "ratio": "4:5",
-   "input": "name",
+   "input": "product-qibai-sunscreen+logo-qibai",
    "use": {
     "zh": "社媒",
     "en": "Social post"
@@ -56,7 +56,7 @@
    "id": "c03",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-qibai-lotion+logo-qibai",
    "use": {
     "zh": "场景主图",
     "en": "Lifestyle listing image"
@@ -79,7 +79,7 @@
    "id": "c04",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-qy-shampoo+logo-qingyu",
    "use": {
     "zh": "小红书",
     "en": "Xiaohongshu post"
@@ -102,7 +102,7 @@
    "id": "c05",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-qibai-palette+logo-qibai",
    "use": {
     "zh": "场景主图",
     "en": "Lifestyle listing image"
@@ -125,7 +125,7 @@
    "id": "c06",
    "section": "category",
    "ratio": "4:5",
-   "input": "candle-jar",
+   "input": "product-wuyu-candle+logo-wuyu",
    "use": {
     "zh": "社媒",
     "en": "Social post"
@@ -148,7 +148,7 @@
    "id": "p01",
    "section": "set",
    "ratio": "3:4",
-   "input": "serum-clear",
+   "input": "product-qibai-oil+logo-qibai",
    "use": {
     "zh": "小红书种草轮播",
     "en": "Xiaohongshu carousel"
@@ -175,7 +175,7 @@
    "id": "p02",
    "section": "set",
    "ratio": "3:4",
-   "input": "serum-clear",
+   "input": "product-qibai-oil+logo-qibai",
    "use": {
     "zh": "小红书种草轮播",
     "en": "Xiaohongshu carousel"
@@ -202,7 +202,7 @@
    "id": "p03",
    "section": "set",
    "ratio": "3:4",
-   "input": "serum-clear",
+   "input": "product-qibai-oil+logo-qibai",
    "use": {
     "zh": "小红书种草轮播",
     "en": "Xiaohongshu carousel"
@@ -229,7 +229,7 @@
    "id": "p04",
    "section": "set",
    "ratio": "3:4",
-   "input": "serum-clear",
+   "input": "product-qibai-oil+logo-qibai",
    "use": {
     "zh": "小红书种草轮播",
     "en": "Xiaohongshu carousel"
@@ -256,7 +256,7 @@
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
-   "input": "cream-jar",
+   "input": "product-qibai-cream+logo-qibai",
    "use": {
     "zh": "场景主图",
     "en": "Lifestyle listing image"
@@ -279,7 +279,7 @@
    "id": "s02",
    "section": "size",
    "ratio": "3:4",
-   "input": "cream-jar",
+   "input": "product-qibai-cream+logo-qibai",
    "use": {
     "zh": "小红书",
     "en": "Xiaohongshu post"
@@ -302,7 +302,7 @@
    "id": "s03",
    "section": "size",
    "ratio": "9:16",
-   "input": "cream-jar",
+   "input": "product-qibai-cream+logo-qibai",
    "use": {
     "zh": "竖屏信息流",
     "en": "Vertical feed ad"
@@ -325,7 +325,7 @@
    "id": "s04",
    "section": "size",
    "ratio": "16:9",
-   "input": "cream-jar",
+   "input": "product-qibai-cream+logo-qibai",
    "use": {
     "zh": "横幅",
     "en": "Banner"
@@ -348,7 +348,7 @@
    "id": "s05",
    "section": "category",
    "ratio": "3:4",
-   "input": "perfume-square",
+   "input": "product-wuyu-perfume+logo-wuyu",
    "use": {
     "zh": "小红书",
     "en": "Xiaohongshu post"
@@ -371,7 +371,7 @@
    "id": "s06",
    "section": "category",
    "ratio": "4:5",
-   "input": "serum-amber",
+   "input": "product-qibai-serum+logo-qibai",
    "use": {
     "zh": "社媒",
     "en": "Social post"
@@ -394,7 +394,7 @@
    "id": "s07",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-qibai-device+logo-qibai",
    "use": {
     "zh": "场景主图",
     "en": "Lifestyle listing image"
