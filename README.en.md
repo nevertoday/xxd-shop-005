@@ -8,7 +8,19 @@
 
 </div>
 
-> Original brief: [Simplified Chinese original](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)
+**Photograph your beauty or skincare product in a bright, tidy home that feels like real life.**
+Real-camera everyday feel, but as neat as the home of someone with great taste — and the product is the brightest, clearest thing in the frame.
+
+| At a glance | |
+|---|---|
+| **You give** | A product photo (recommended) or name, plus one line on its use, such as "morning serum" or "bathroom body lotion" |
+| **You get** | Xiaohongshu-style lifestyle shots and store scene images; also a carousel set in one home |
+| **The look** | High-key daylight · no dark corners or heavy shadows · few, orderly props · ceramic dish, stone tray or clean counter · no text by default |
+| **Best for** | Beauty, skincare, personal-care and fragrance lifestyle and scene images |
+
+> **Once installed, just say:**
+>
+> /xxd-shop-005 Make a lifestyle shot of this niacinamide serum
 
 <!-- xxd-samples:start -->
 ## Samples
@@ -25,7 +37,7 @@ One tile per category; click for full size. The sections below give use, ratio, 
 
 ### One product, every placement
 
-Same product, same brief: each ratio is a new composition, not a crop.
+Same product, same style: each ratio is a new composition, not a crop.
 
 <table>
 <tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="Lifestyle listing image"></a><br><sub>Lifestyle listing image · 1:1 · 1254x1254<br>QIBAI soft-matte cream · <a href="assets/examples/sources/product-qibai-cream.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="Xiaohongshu post"></a><br><sub>Xiaohongshu post · 3:4 · 1086x1448<br>QIBAI soft-matte cream · <a href="assets/examples/sources/product-qibai-cream.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="Vertical feed ad"></a><br><sub>Vertical feed ad · 9:16 · 941x1672<br>QIBAI soft-matte cream · <a href="assets/examples/sources/product-qibai-cream.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="Banner"></a><br><sub>Banner · 16:9 · 1672x941<br>QIBAI soft-matte cream · <a href="assets/examples/sources/product-qibai-cream.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · no added text</sub></td></tr>
@@ -51,41 +63,113 @@ Same product, same brief: each ratio is a new composition, not a crop.
 
 ## What it solves
 
-Beauty lifestyle shots usually fail by being too studio — an ad, not a life — or by being "casual" to the point of clutter, with the bottle's label lost in reflections.
+Beauty lifestyle images fail in two ways: too studio-like, so they read as ads, or "casual" turned messy — a cluttered counter and label text lost to reflections.
 
-**Shop 005** sits between: **a real-camera lived-in photo, tidy like the home of someone with great taste.** High-key indoor daylight fills the space with no dark corners or heavy shadows; props are few and squared; the product rests on a ceramic dish, stone tray or clean surface and is the brightest, most complete and most legible thing in frame.
+**Shop 005** walks the line between: **real-camera everyday feel, as neat as the home of someone with great taste.** High-key interior daylight fills the space with no dark corners or heavy shadows; props are few and squared up; the product sits on a ceramic dish, stone tray or clean surface as the brightest, most complete, most legible thing in the frame.
 
-## How it differs
+## How it differs from the others
 
-- **No text.** It is a photograph, not a poster; no headline or stickers by default.
-- **Bright.** The brief rejects dark areas, black backgrounds and hard side light — for moody premium looks use Shop 001 or 011.
-- **Made for lifestyle feeds, beauty recommendations and e-commerce scene images.**
+- **No text.** It is a photograph, not a poster: no titles or stickers by default, and it does not ask about text.
+- **Bright.** The style rejects large dark areas, black backgrounds and hard side light; for a premium dark look, [001](https://github.com/nevertoday/xxd-shop-001) or 011 fits better.
 
-## Carousel set
+## Carousel
 
-With `--set` (4 by default, 3–6 allowed) you get several corners of the same tidy home: a ceramic dish, a stone tray, a storage cabinet, a mirror shelf. Each image changes the spot or the distance, while the light and materials stay those of one home. The last image returns to the first spot at a new distance so the carousel closes the loop. You approve the storyboard together with image 1.
+Ask for a carousel (4 images by default, 3–6 allowed) and you get several corners of the same clean home: a ceramic dish, a stone tray, a storage cabinet, in front of a vanity mirror… Each image changes the surface or distance while light and materials stay in one home. The last returns to the first spot at a different distance so the carousel loops.
 
-## Getting started
+## What to prepare
+
+- **A product photo** (recommended): white-background or real-life; bottle text, logo and labels are kept. For small label text, one clear front shot matters most.
+- **Or a product name:** it can work from the name alone.
+- **The use** (recommended): "morning serum", "bathroom body lotion" — the setting and props follow it.
+
+## How to use it
+
+### Step 1: install (once)
 
 ```bash
 git clone https://github.com/nevertoday/xxd-shop-005.git
+mkdir -p ~/.claude/skills
 ln -s "$(pwd)/xxd-shop-005" ~/.claude/skills/xxd-shop-005
 ```
+
+Codex users link the same folder into `~/.codex/skills/xxd-shop-005`. Restart your AI assistant's session after installing.
+
+### Step 2: say what you want in plain words
+
+```text
+/xxd-shop-005 Make a lifestyle shot of this niacinamide serum
+/xxd-shop-005 Shampoo and hand cream side by side, each in its own setting, 3:2
+/xxd-shop-005 Make a 4-image carousel for this serum
+```
+
+No flags to memorise. Anything you leave open, such as sizes or how many, is asked in one go, and next time you can reuse your previous settings.
+
+### Step 3: what it does next
+
+1. Reads your product photo and description and asks only what is still open; sizes are recommended from the use, with pixel dimensions.
+2. This style adds no text by default and does not ask about it.
+3. For a carousel, you first see the storyboard and image 1; the rest follow after you confirm.
+4. Every size is composed afresh, never cropped from another image.
+5. Checks each image before delivery: is the product unchanged, is the text spelled right, are there numbers you never gave? Anything that fails is reported and redone.
+6. Saves PNGs to a new task folder under `~/Desktop/xxd/xxd-shop-005/` and gives you the path.
+
+<details>
+<summary><strong>Advanced: command flags (for later)</strong></summary>
 
 ```text
 /xxd-shop-005 ./serum.png --product "Niacinamide serum 30 ml" --use "lifestyle post" --size 3:4 --text none
 /xxd-shop-005 ./shampoo.png ./hand-cream.png --size 3:2 --text none Two products side by side, each in its own scene
 ```
 
-Key flags: `--product`, `--use`, `--size`, `--count`, `--text none` (default, not asked). Full list in the [family runtime](references/shop-runtime.md).
+Key flags: `--product`, `--use`, `--size`, `--count`, `--text none` (default, not asked). Full list in the [runtime reference](references/shop-runtime.md).
 
-## Boundaries
+</details>
 
-- The original brief is kept verbatim and is the only aesthetic authority. A sample task at the end of the source file (two products side by side, 3:2) was removed; see the [original-prompt index](references/original-prompt/README.md).
-- Label text and logos are never rewritten or garbled; no efficacy claims appear.
+## FAQ
+
+**Which size should I use?**
+
+3:4 for Xiaohongshu, 1:1 for store scene images, 3:2 for two products side by side.
+
+**Will it write benefits on the image?**
+
+No. The only text is the product's own packaging.
+
+**What do I need?**
+
+Three things: ① an AI assistant that supports Skills, such as Claude Code or Codex; ② an image-capable model — your assistant's built-in image generation, or a model provider configured in Codex that generates images through the Responses API (GPT Image 2 by default); ③ Python 3.11+ with Pillow (`pip install pillow`).
+
+**Does it cost anything? Can I use it commercially?**
+
+The Skill is free to download; image generation is billed to your own model account. The project uses the PolyForm Noncommercial licence: personal learning, research and testing are fine; running a shop, client work or other commercial use needs the author's written permission first — see "License" at the end.
+
+**How large are the images?**
+
+You can ask for a ratio or exact pixels. The real size is whatever the model returns — never secretly upscaled — and the file name states the true pixels.
+
+**Will the text in the image have typos?**
+
+AI images occasionally misspell words or add small marks such as ® next to a brand name. Every image is zoomed and checked before delivery, and any failure is redone; all samples on this page passed that check.
+
+**Will it invent prices or sales numbers?**
+
+No. Anything that looks like a fact — price, specs, origin, sales, awards, certifications — comes only from what you provide or text clearly readable on the product; otherwise it is left out, with no "¥XX" placeholder.
+
+**Can it handle many products at once?**
+
+Yes. Give it a folder of product photos: each image is one product, sizes and text are asked once, and no product's facts or copy leak into another's.
+
+## Principles
+
+- **The style stays true:** behind this Skill is a mature commercial design prompt ([original brief](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)). The Skill never rewrites it or adds its own colours or art direction; it only hands the model your product, sizes, text and facts.
+- **The product is not redesigned:** with a product photo, shape, colour, packaging text and logo follow the photo.
+- **Only your facts,** and each product stands alone — nothing borrowed from other products, earlier results or samples.
+- **Real PNG bitmaps,** never SVG or code drawings passed off as images; every run creates a new task folder.
+- Bottle text and logos are never rewritten or garbled.
 
 <!-- xxd-shop-tail -->
-## Project structure
+<details>
+<summary><strong>Project structure (for developers)</strong></summary>
 
 ```text
 xxd-shop-005/
@@ -106,6 +190,8 @@ xxd-shop-005/
         ├── zh-CN.md
         └── en.md
 ```
+
+</details>
 
 <!-- xxd-readme-ads:start -->
 ## About XXD
